@@ -4,7 +4,6 @@ import SearchBox from "./SearchBox";
 import Scroll from "./Scroll";
 
 import { connect } from "react-redux";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import { searchRobots } from "../actions/searchActions";
 import { requestRobots } from "../actions/robotActions";
